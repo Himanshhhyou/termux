@@ -1,4 +1,4 @@
-# Step by Step process for Fixing Proc Error Of libreoffice in termux
+# Step by step process for fixing proc error Of libreoffice in termux
 
 ### Step 1: Download hex editor
 Download any hex editor (for example: ghex) in kali.
