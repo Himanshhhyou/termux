@@ -23,4 +23,14 @@ Open `libreoffice` folder
 <br><br>
 ![](3.png)
 
+### Step 5: 
+Open `program` folder
+<br><br>
+![](4.png)
+
+### Step 6: 
+Open 'oosplash` file with ghex editor 
+<br><br>
+![](5.png)
+
 
