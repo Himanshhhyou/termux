@@ -68,6 +68,7 @@ Now open libreoffice and enjoy
 <br><br>
 ![](12.png)
 
+<hr>
 
 Need any help?
 Contact me on <a href="mailto:himanshukushwaha548@gmail.com">himanshukushwaha548@gmail.com</a>
