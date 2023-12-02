@@ -29,8 +29,48 @@ Open `program` folder
 ![](4.png)
 
 ### Step 6: 
-Open 'oosplash` file with ghex editor 
+Here you will find `oosplash` file
 <br><br>
 ![](5.png)
+
+### Step 7:
+open `oosplash` file with ghex editor
+<br><br>
+![](6.png)
+
+### Step 8: 
+Open 'Find and replace` menu
+<br><br>
+![](7.png)
+
+### Step 9: 
+Find `proc` and replace with `prod`
+<br><br>
+![](8.png)
+
+### Step 10:
+Save changes
+<br><br>
+![](9.png)
+
+### Step 11: 
+Again open `File System` and create a `prod` folder
+<br><br>
+![](10.png)
+
+### Step 12: 
+Inside prod folder create a `version` folder
+<br><br>
+![](11.png)
+
+## Step 13: 
+Now open libreoffice and enjoy
+<br><br>
+![](12.png)
+
+
+Need any help?
+Contact me on <a href="mailto:himanshukushwaha548@gmail.com">himanshukushwaha548@gmail.com</a>
+
 
 
