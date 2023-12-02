@@ -1,6 +1,6 @@
 # Step by step process for fixing proc error Of libreoffice in termux
 
-### Step 1: Download hex editor
+### Step 1:
 Download any hex editor (for example: ghex) in kali.
 ```termux
 sudo apt install ghex
