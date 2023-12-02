@@ -6,6 +6,6 @@ Download any hex editor (for example: ghex) in kali.
 sudo apt install ghex
 ```
 ### Step2:
-Connect termux with nethunter & open `file system`
+Connect termux with nethunter &<br> open `file system`
 <br>
 ![](1.png)
