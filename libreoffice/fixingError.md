@@ -7,4 +7,5 @@ sudo apt install ghex
 ```
 ### Step2:
 Connect termux with nethunter & open `file system`
+<br>
 ![](1.png)
