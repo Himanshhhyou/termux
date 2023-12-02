@@ -10,4 +10,5 @@ Connect termux with nethunter & open<br> `file system`
 
 ## Step 3: 
 Open `usr` folder
+<br><br>
 ![](1.png)
