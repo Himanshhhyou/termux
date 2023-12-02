@@ -17,3 +17,10 @@ Open `usr` folder
 Open `lib` folder
 <br><br>
 ![](2.png)
+
+### Step 5: 
+Open `libreoffice` folder
+<br><br>
+![](3.png)
+
+
