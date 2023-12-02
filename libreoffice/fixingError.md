@@ -8,7 +8,12 @@ sudo apt install ghex
 ### Step 2:
 Connect termux with nethunter & open<br> `file system`
 
-## Step 3: 
+### Step 3: 
 Open `usr` folder
 <br><br>
 ![](1.png)
+
+### Step 4: 
+Open `lib` folder
+<br><br>
+![](2.png)
