@@ -5,7 +5,7 @@
 
 ### Step 2:
 Go to your phone storage's download folder and cut `code-server-4.19.1-linux-arm64.tar.gz`
- file and paste it in kali (In my case I paste file in kali-arm64/home/kali)
+ file and paste it in kali<br> *(In my case I paste file in kali-arm64/home/kali)*
 <br><br>
 ![](ls.png)
 
