@@ -23,7 +23,7 @@ nano ~/.config/code-server/config.yaml
 ```
 ![](pass.png)
 
-> Don't want to type password each time while connecting? [click here](#connect without password)
+> Don't want to type password each time while connecting? [click here](#Don't-want-to-type-password-each-time-while-connecting?)
 
 ### Step 5: 
 Go to bin folder
