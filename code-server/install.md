@@ -43,3 +43,5 @@ Enter this url in Chrome
 ## Connect without password
 Change the value of `auth` to `none`
 ![](none.png)
+
+*Not need to change the `bind-addr` in your case it might be `127.0.0.1:8080`*
