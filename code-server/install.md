@@ -45,3 +45,8 @@ Change the value of `auth` to `none`
 ![](none.png)
 
 *Not need to change the `bind-addr` in your case it might be `127.0.0.1:8080`*
+
+<hr>
+
+Need any help?
+Contact me on <a href="mailto:himanshukushwaha548@gmail.com">himanshukushwaha548@gmail.com</a>
