@@ -7,3 +7,5 @@
 Go to your phone storage's download folder and cut cod-server file and paste it in kali (In my case I paste file in kali-arm64/home/kali)
 <br><br>
 ![](ls.png)
+
+> Use [files app](https://play.google.com/store/apps/details?id=com.marc.files) to move file from phone storage to kali.
