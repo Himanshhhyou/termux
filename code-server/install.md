@@ -23,7 +23,7 @@ nano ~/.config/code-server/config.yaml
 ```
 ![](pass.png)
 
-> Don't want to type password each time while connecting? [click here](#want-to-type-password-each-time-while-connecting)
+> Don't want to type password each time while connecting? [click here](#without-password)
 
 ### Step 5: 
 Go to bin folder
@@ -40,6 +40,7 @@ Run code server
 Enter this url in Chrome
 [http://localhost:8080/](http://localhost:8080/) and type password to connect 
 
+## without password
 ## Don't want to type password each time while connecting?
 Change the value of `auth` to `none`
 ![](none.png)
