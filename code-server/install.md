@@ -35,4 +35,4 @@ Run code server
 ```
 ### Step 7:
 Enter this url in Chrome
-[](http://localhost:8080/) and type password to connect 
+[http://localhost:8080/](http://localhost:8080/) and type password to connect 
