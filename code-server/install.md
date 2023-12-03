@@ -22,3 +22,17 @@ Change password for code server
 nano ~/.config/code-server/config.yaml
 ```
 
+### Step 5: 
+Go to bin folder
+```
+cd code-server-4.19.1-linux-arm64/bin
+```
+
+### Step 6:
+Run code server
+```
+./code-server
+```
+### Step 7:
+Enter this url in Chrome
+[](localhost:8080) and type password to connect 
