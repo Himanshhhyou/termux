@@ -1,9 +1,9 @@
 # How to install code server in kali nethunter rootless
 
-### Step 1: 
+### Step 1: Download code server
 [Download](https://github.com/coder/code-server/releases/download/v4.19.1/code-server-4.19.1-linux-arm64.tar.gz) the latest code server
 
-### Step 2:
+### Step 2: Move file
 Go to your phone storage's download folder and cut `code-server-4.19.1-linux-arm64.tar.gz`
  file and paste it in kali<br> *(In my case I paste file in kali-arm64/home/kali)*
 <br><br>
@@ -11,13 +11,13 @@ Go to your phone storage's download folder and cut `code-server-4.19.1-linux-arm
 
 > Use [files app](https://play.google.com/store/apps/details?id=com.marc.files) to move file from phone storage to kali.
 
-### Step 3:
+### Step 3: Extract file 
 Extract the file 
 ```linux
 tar -xvf code-server-4.19.1-linux-arm64.tar.gz
 ```
 
-### Step 4: 
+### Step 4: Change password 
 Change password for code server
 ```
 nano ~/.config/code-server/config.yaml
@@ -26,18 +26,18 @@ nano ~/.config/code-server/config.yaml
 
 > Don't want to type password each time while connecting? [click here](#connect-without-password)
 
-### Step 5: 
+### Step 5: Go to bin
 Go to bin folder
 ```
 cd code-server-4.19.1-linux-arm64/bin
 ```
 
-### Step 6:
+### Step 6: Run code server 
 Run code server
 ```
 ./code-server
 ```
-### Step 7:
+### Step 7: Connection 
 Enter this url in Chrome
 [http://localhost:8080/](http://localhost:8080/) and type password to connect 
 
