@@ -16,3 +16,9 @@ Extract the file
 tar -xvf code-server-4.19.1-linux-arm64.tar.gz
 ```
 
+### Step 4: 
+Change password for code server
+```
+nano ~/.config/code-server/config.yaml
+```
+
