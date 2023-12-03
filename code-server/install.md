@@ -21,6 +21,9 @@ Change password for code server
 ```
 nano ~/.config/code-server/config.yaml
 ```
+![](pass.png)
+
+> Don't want to type password each time while connecting? [click here](#connect without password)
 
 ### Step 5: 
 Go to bin folder
@@ -36,3 +39,7 @@ Run code server
 ### Step 7:
 Enter this url in Chrome
 [http://localhost:8080/](http://localhost:8080/) and type password to connect 
+
+## Don't want to type password each time while connecting?
+Change the value of `auth` to `none`
+![](none.png)
