@@ -9,3 +9,10 @@ Go to your phone storage's download folder and cut cod-server file and paste it 
 ![](ls.png)
 
 > Use [files app](https://play.google.com/store/apps/details?id=com.marc.files) to move file from phone storage to kali.
+
+### Step 3:
+Extract the file 
+```linux
+tar -xvf code-server-4.19.1-linux-arm64.tar.gz
+```
+
