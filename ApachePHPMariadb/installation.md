@@ -1,6 +1,6 @@
 # Apache PHP Mariadb installation 
 - Update and upgrade termux
-``` kali
+``` termux
 pkg update && pkg upgrade
 ```
 
