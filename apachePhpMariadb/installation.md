@@ -1,4 +1,5 @@
-# Apache PHP Mariadb installation
+# Apache PHP Mariadb
+## Installation 
 
 - update and upgrade termux
 ```termux
