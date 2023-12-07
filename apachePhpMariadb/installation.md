@@ -44,9 +44,17 @@ save Content: :wa!
 exit vim: :qa!
 
 ### Configuration 
-edit httpd.conf file
+- edit httpd.conf file
 which is inside
 /data/data/com.termux/files/usr/etc/apache2
 ```termux
 vim /data/data/com.termux/files/usr/etc/apache2/httpd.conf
+```
+
+- uncomment : **mod_mpm_prefork.so** module
+comment: **mod_mpm_worker.so** module
+
+-add libphp.so module before mod_mpm_prefork.so module
+```termux
+LoadModule php_module libexec/apache2/libphp.so
 ```
