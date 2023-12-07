@@ -42,3 +42,11 @@ pkg install vim
 writing mode: i
 save Content: :wa!
 exit vim: :qa!
+
+### Configuration 
+edit httpd.conf file
+which is inside
+/data/data/com.termux/files/usr/etc/apache2
+```termux
+vim /data/data/com.termux/files/usr/etc/apache2/httpd.conf
+```
