@@ -58,3 +58,20 @@ comment: **mod_mpm_worker.so** module
 ```termux
 LoadModule php_module libexec/apache2/libphp.so
 ```
+- Go to last add this line of code below <ifmodule>
+
+```termux
+#Set Handler or FilesMatch for php to understand .php file
+<FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+</FilesMatch>
+```
+
+- and add this line very last
+```termux
+#Load php module config file from apache2 extra directory
+Include etc/apache2/extra/php_module.conf
+```
+
+
+- save and quit file
