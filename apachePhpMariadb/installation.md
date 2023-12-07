@@ -11,6 +11,9 @@ pkg install apache2 php php-apache phpmyadmin mariadb
 ```
 ## Start and stop services
 
-| Start  | Stop    |
-|---------------|---------------|
-| httpd         | killall httpd |
+|Service  | Start         | Stop          |
+|---------|---------------|---------------|
+|apache   | httpd         | killall httpd |
+|php   | php -S localhost:8082 | killall php |
+
+|mariadb   | mysqld         | killall mysqld |
