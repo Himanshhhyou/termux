@@ -84,4 +84,20 @@ Include etc/apache2/extra/php_module.conf
   ```termux
   touch php_module.conf
   ```
+-all set, restart apache and php file will be run
+
+### Set index.php default file 
+
+go to 
+```termux
+vim /data/data/com.termux/files/usr/etc/apache2/httpd.conf 
+```
+
+and add index.php after index.html
+```termux
+<IfModule dir_module>
+    DirectoryIndex index.html index.php
+</IfModule>
+```
+
   
