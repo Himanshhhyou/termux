@@ -26,7 +26,7 @@ cd /data/data/com.termux/files/usr/share/apache2/default-site/htdocs
 
 ## configure apache with php
 ### phpinfo();
-First, remove index.html and create index.php inside htdocs folder
+First, remove index.html and create index.php inside htdocs folder and write code:
 ```php
 <?php
 phpinfo();
