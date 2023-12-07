@@ -19,4 +19,7 @@ pkg install apache2 php php-apache phpmyadmin mariadb
 |mariadb  | mysqld         | killall mysqld|
 
 > htdocs location
+
+```termux
 cd /data/data/com.termux/files/usr/share/apache2/default-site/htdocs
+```
