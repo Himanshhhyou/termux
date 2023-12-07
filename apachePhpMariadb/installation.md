@@ -23,3 +23,11 @@ pkg install apache2 php php-apache phpmyadmin mariadb
 ```termux
 cd /data/data/com.termux/files/usr/share/apache2/default-site/htdocs
 ```
+
+## configure apache with php
+### phpinfo();
+```php
+<?php
+phpinfo();
+?>
+```
