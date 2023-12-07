@@ -11,4 +11,5 @@ pkg install apache2 php php-apache phpmyadmin mariadb
 ```
 
 | Start apache | Stop apache|
+----------------
 |httpd|killall httpd|
