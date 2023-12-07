@@ -75,3 +75,13 @@ Include etc/apache2/extra/php_module.conf
 
 
 - save and quit file
+- go inside extra directory /data/data/com.termux/files/usr/etc/apache2/extra
+  ```termux
+  cd /data/data/com.termux/files/usr/etc/apache2/extra
+  ```
+
+- create a file
+  ```termux
+  touch php_module.conf
+  ```
+  
