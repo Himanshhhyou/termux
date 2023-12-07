@@ -7,12 +7,13 @@ Make sure your Termux packages are up to date by running the following commands:
 ```termux
 pkg update && pkg upgrade
 ```
-
-- install services 
+### install services
+Install the required services by executing the following command:
 ```termux
 pkg install apache2 php php-apache phpmyadmin mariadb
 ```
-## Start and stop services
+#### Start and stop services
+Managing services is a crucial aspect of running a server. Familiarize yourself with the commands to start and stop Apache, PHP, and MariaDB:
 
 |Service  | Start         | Stop          |
 |---------|---------------|---------------|
