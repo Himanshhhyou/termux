@@ -1,7 +1,9 @@
 # Apache PHP Mariadb
 ## Installation 
+To set up Apache, PHP, and MariaDB on your Termux environment, follow the step-by-step installation process outlined below.
 
-- update and upgrade termux
+### update and upgrade termux
+Make sure your Termux packages are up to date by running the following commands:
 ```termux
 pkg update && pkg upgrade
 ```
