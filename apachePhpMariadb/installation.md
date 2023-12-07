@@ -29,6 +29,11 @@ cd /data/data/com.termux/files/usr/share/apache2/default-site/htdocs
 
 ## configure apache with php
 ### phpinfo();
+Here i will use vim editor to edit file
+so install vim by:
+ ```termux
+pkg install vim
+```
 Setting up PHP with Apache involves creating and configuring files. Follow these detailed steps:
 1. Remove Default index.html
 ```termux
@@ -44,15 +49,10 @@ phpinfo();
 ?>
 ```
 
-> Here i will use vim editor to edit file
-so install vim by:
- ```termux
-pkg install vim
-```
 ### Commands for vim 
-writing mode: i
-save Content: :wa!
-exit vim: :qa!
+writing mode: i<br>
+save Content: :wa!<br>
+exit vim: :qa!<br>
 
 ### Configuration 
 - edit httpd.conf file
