@@ -1,55 +1,44 @@
-# Setting Up Apache, PHP, and MariaDB on Termux
+# Apache PHP Mariadb
+## Installation 
 
-## Installation
+- update and upgrade termux
+```termux
+pkg update && pkg upgrade
+```
 
-1. **Update and Upgrade Termux:**
-    ```termux
-    pkg update && pkg upgrade
-    ```
+- install services 
+```termux
+pkg install apache2 php php-apache phpmyadmin mariadb
+```
+## Start and stop services
 
-2. **Install Services:**
-    ```termux
-    pkg install apache2 php php-apache phpmyadmin mariadb
-    ```
+|Service  | Start         | Stop          |
+|---------|---------------|---------------|
+|apache   | httpd         | killall httpd |
+|php      | php -S localhost:8082 | killall php|
+|mariadb  | mysqld         | killall mysqld|
 
-## Managing Services
+> htdocs location
 
-| Service | Start Command               | Stop Command              |
-| ------- | --------------------------- | ------------------------- |
-| Apache  | `httpd`                     | `killall httpd`           |
-| PHP     | `php -S localhost:8082`     | `killall php`             |
-| MariaDB | `mysqld`                    | `killall mysqld`          |
+```termux
+cd /data/data/com.termux/files/usr/share/apache2/default-site/htdocs
+```
 
-> Apache's htdocs location:
-> ```termux
-> cd /data/data/com.termux/files/usr/share/apache2/default-site/htdocs
-> ```
+## configure apache with php
+### phpinfo();
+First, remove index.html and create index.php inside htdocs folder and write code:
+```php
+<?php
+phpinfo();
+?>
+```
 
-## Configuring Apache with PHP
-
-### Running `phpinfo();`
-
-1. **Navigate to Apache's htdocs:**
-    ```termux
-    cd /data/data/com.termux/files/usr/share/apache2/default-site/htdocs
-    ```
-
-2. **Create `index.php` and Add PHP Code:**
-   Remove the existing `index.html` and create `index.php`. Add the following PHP code:
-    ```php
-    <?php
-    phpinfo();
-    ?>
-    ```
-
-Now that you've completed the setup, access PHP info by navigating to [http://localhost:8082](http://localhost:8082) in your browser.
-
-## Additional Notes
-
-- **Apache's Document Root:**
-  The document root for Apache is where your web server looks for files to serve. In this setup, it's located at `/data/data/com.termux/files/usr/share/apache2/default-site/htdocs`.
-
-- **Accessing PHPMyAdmin:**
-  PHPMyAdmin is now installed. You can access it by navigating to [http://localhost/phpmyadmin](http://localhost/phpmyadmin) after starting the Apache and MariaDB services.
-
-Feel free to customize and expand further based on your specific requirements!
+> Here i will use vim editor to edit file
+so install vim by: 
+```termux
+pkg install vim
+```
+### Commands for vim 
+writing mode: i
+save Content: :wa!
+exit vim: :qa!
