@@ -29,7 +29,15 @@ cd /data/data/com.termux/files/usr/share/apache2/default-site/htdocs
 
 ## configure apache with php
 ### phpinfo();
-First, remove index.html and create index.php inside htdocs folder and write code:
+Setting up PHP with Apache involves creating and configuring files. Follow these detailed steps:
+1. Remove Default index.html
+```termux
+   rm index.html
+```
+2. Create and edit index.php
+```termux
+vim index.php
+```
 ```php
 <?php
 phpinfo();
