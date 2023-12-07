@@ -34,11 +34,11 @@ phpinfo();
 ```
 
 > Here i will use vim editor to edit file
-so install vim by: 
-```termux
+so install vim by:
+> ```termux
 pkg install vim
 ```
-### Commands for vim 
+> ### Commands for vim 
 writing mode: i
 save Content: :wa!
 exit vim: :qa!
