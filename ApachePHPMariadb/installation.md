@@ -1,6 +1,6 @@
 # Apache PHP Mariadb installation 
 - Update and upgrade termux
-``` termux
+``` html
 pkg update && pkg upgrade
 ```
 
