@@ -5,11 +5,12 @@
 pkg update && pkg upgrade
 ```
 
-- install tools
+- install services 
 ```termux
 pkg install apache2 php php-apache phpmyadmin mariadb
 ```
+## Start and stop services
 
-| Start apache  | Stop apache   |
+| Start  | Stop    |
 |---------------|---------------|
 | httpd         | killall httpd |
