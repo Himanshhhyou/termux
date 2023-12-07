@@ -9,3 +9,7 @@ pkg update && pkg upgrade
 ```termux
 pkg install apache2 php php-apache phpmyadmin mariadb
 ```
+
+| Start apache | Stop apache|
+______________________________
+|httpd|killall httpd|
